@@ -1,0 +1,124 @@
+man - Displays the manual page for a command, providing detailed information on usage and options.
+cd - Changes the current directory; with flags: . (current directory), .. (parent directory), ~ (home directory), and - (previous directory).
+mkdir - Creates a new directory.
+mv - Moves or renames files or directories.
+cp -r - Copies files and directories recursively.
+ls - Lists directory contents with various flags for detailed views (e.g., -l for long format, -a for hidden files).
+pwd - Prints the current working directory.
+rm - Removes files or directories.
+chmod - Changes file or directory permissions.
+chown - Changes file or directory ownership.
+sudo - Executes a command with superuser privileges.
+apt - Manages packages on Debian-based systems (install, update, remove).
+touch - Creates an empty file or updates the timestamp of an existing file.
+cat - Concatenates and displays the content of files.
+less - Allows backward and forward navigation through a file.
+more - Displays file content one screen at a time.
+tail - Outputs the last few lines of a file, with -f to follow new additions in real-time.
+rsync - Synchronizes files and directories between two locations.
+grep - Searches for patterns within files.
+find - Searches for files and directories based on various criteria.
+sort - Sorts lines of text files.
+date - Displays or sets the system date and time.
+tree - Recursively lists directory contents in a tree-like format (requires installation).
+wc - Counts words, lines, characters, and bytes in files.
+alias: Creates shortcuts for longer commands or a series of commands.
+unalias: Removes an alias created with the alias command.
+df: Displays disk space usage of file systems.
+du: Shows disk usage of files and directories.
+ps: Displays information about currently running processes.
+kill: Sends a signal to terminate a process by its PID.
+killall: Kills all processes matching a specified name.
+top: Displays real-time system resource usage, including CPU and memory.
+htop: An improved, interactive version of top with more features; often needs to be installed separately.
+uname: Displays system information, such as kernel version and architecture.
+echo: Displays a line of text or variable values.
+env: Displays environment variables or runs a command in a modified environment.
+export: Sets environment variables to be used by other commands and processes.
+history: Shows a list of previously executed commands in the shell.
+ssh: Connects to a remote machine securely over SSH (Secure Shell).
+scp: Securely copies files between hosts over SSH.
+nano: A simple text editor for command-line interface editing.
+vim: A powerful text editor with advanced features, used for command-line text editing.
+sed: A stream editor used for searching, finding, and replacing text.
+awk: A programming language for pattern scanning and processing, useful for text processing and data extraction.
+tar: Archives files into a tarball, commonly used with compression (e.g., .tar.gz).
+gzip: Compresses files using the GNU zip algorithm.
+gunzip: Decompresses files compressed with gzip.
+bzip2: Compresses files using the Burrows-Wheeler algorithm.
+bunzip2: Decompresses files compressed with bzip2.
+zip: Compresses files into a zip archive.
+unzip: Extracts files from a zip archive.
+mount: Mounts file systems, making them accessible at specific directories.
+umount: Unmounts file systems, removing their access.
+locate: Finds files by name quickly using a pre-built database.
+updatedb: Updates the database used by locate.
+ping: Checks network connectivity to a host.
+ifconfig: Displays or configures network interfaces (deprecated, use ip).
+ip: Configures network interfaces, routes, and more (replacement for ifconfig).
+netstat: Displays network connections, routing tables, and interface statistics.
+ss: Displays socket statistics, a faster and simpler alternative to netstat.
+iptables: Configures the Linux kernel firewall for packet filtering.
+systemctl: Controls the systemd system and service manager.
+journalctl: Views logs collected by the systemd journal.
+crontab: Schedules commands to run at specific intervals using cron jobs.
+at: Schedules commands to run at a single future time.
+uptime: Shows how long the system has been running, along with load averages.
+who: Shows who is currently logged into the system.
+hostname: Displays or sets the system's hostname.
+wget: Downloads files from the web via HTTP, HTTPS, or FTP.
+curl: Transfers data from or to a server, supporting multiple protocols.
+head: Displays the first few lines of a file.
+diff: Compares files line by line and shows differences.
+cmp: Compares two files byte by byte.
+chmod: Changes file or directory permissions.
+chown: Changes file or directory ownership.
+lsblk: Lists information about block devices, like disks and partitions.
+blkid: Displays or sets block device attributes, such as UUIDs.
+file: Determines the type of a file.
+touch: Creates a new, empty file or updates the timestamp of an existing file.
+ln: Creates hard and symbolic links to files and directories.
+xargs: Constructs argument lists and executes commands from standard input.
+tee: Reads from standard input and writes to standard output and files.
+dd: Converts and copies files, often used for disk imaging.
+chmod: Modifies file permissions using symbolic or numeric modes.
+chattr: Changes file attributes on a Linux file system.
+lsattr: Lists file attributes on a Linux file system.
+dmidecode: Dumps a computer's DMI (some say SMBIOS) table contents in a human-readable format.
+lscpu: Displays information about the CPU architecture.
+lsusb: Lists USB devices connected to the system.
+lspci: Lists all PCI devices on the system.
+fdisk: A partitioning tool to create, delete, and manage disk partitions.
+parted: A more advanced partitioning tool compared to fdisk.
+mkfs: Creates a file system on a partition or disk.
+fsck: Checks and repairs a Linux file system.
+tune2fs: Adjusts tunable file system parameters on ext2/ext3/ext4 file systems.
+e2fsck: File system consistency check and repair for ext2/ext3/ext4 file systems.
+swapon: Activates a swap space on a device or file.
+swapoff: Deactivates a swap space.
+free: Displays memory usage, including physical and swap memory.
+dmesg: Displays messages from the kernel ring buffer, useful for debugging.
+lsof: Lists open files and the processes using them.
+strace: Traces system calls and signals, useful for debugging.
+tcpdump: Captures and analyzes network packets.
+nmap: A network exploration tool and security scanner.
+traceroute: Traces the route packets take to a network host.
+nslookup: Queries DNS to obtain domain name or IP address mapping.
+dig: A more advanced DNS query tool than nslookup.
+hostnamectl: Controls the system hostname and related settings in systems using systemd.
+timedatectl: Controls the system clock and time-related settings.
+hwclock: Displays or sets the hardware clock.
+whoami: Displays the current user name.
+groups: Displays the groups a user is a member of.
+usermod: Modifies user account properties.
+useradd: Creates a new user account.
+userdel: Deletes a user account.
+passwd: Changes a user’s password.
+addgroup: Adds a new group to the system.
+delgroup: Removes a group from the system.
+chage: Changes user password expiry information.
+vipw: Edits the /etc/passwd file securely.
+visudo: Edits the sudoers file securely.
+modprobe: Loads and unloads kernel modules.
+lsmod: Lists currently loaded kernel modules.
+depmod: Generates modules dependency and map files.

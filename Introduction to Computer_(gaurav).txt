@@ -1,0 +1,39 @@
+Introduction to Computer Networks:
+
+A computer network is defined as a collection of linked devices, such as servers and PCs, that have the ability to exchange data and operate together.
+
+Network Types:
+
+LANs (Local Area Networks): These networks span a constrained geographic area, such as a single campus or building.
+
+Wide Area Networks, or WANs, link several local area networks (LANs) over broad geographic regions.
+
+A metropolis or sizable campus is covered by a MAN (Metropolitan Area Network).
+
+Personal area network, or PAN, is a small network used by individual devices, such as Bluetooth connections.
+
+Intranet: A private network used mostly for internal communication that is only available to members of an organization.
+
+Extranet: An intranet to which external users have restricted access.
+
+Topologies of networks:
+
+Bus: A single, central cable to which all gadgets are connected.
+Star: Every gadget is linked to a single hub or switch.
+Ring: Data flows in a single direction between devices connected in a circle.
+Mesh: Every gadget is linked to every other gadget.
+A hybrid system combines two or more topologies.
+
+Network protocols are guidelines for exchanging data. HTTP, FTP, SMTP, and TCP/IP are a few examples.
+
+The OSI Model is a conceptual framework that explains network communication through seven layers: physical, data link, network, transport, session, presentation, and application.
+
+Network Interface, Internet, Transport, and Application layers make up the TCP/IP Model, a four-layer model that is used to develop and implement network protocols.
+
+Every device on a network has an IP address, which is a unique address that is used to identify and connect with the device.
+
+MAC Address: A network interface card's (NIC) specific identification number for data link layer communication.
+
+Subnetting is the process of creating smaller, easier-to-manage subnetworks (subnets) out of a larger network.
+
+Finding the route that data travels over a network to get from its source to its destination is known as routing.
