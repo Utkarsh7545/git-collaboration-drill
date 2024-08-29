@@ -1,0 +1,67 @@
+1: What is a Shell? 
+The shell is a user program or it is an environment provided for user interaction. It is a command language interpreter that executes commands read from the standard input device such as a keyboard or from a file.
+
+2: Command Line Interface (CLI).
+The shell provides an interface to Linux where you can type or enter commands using the keyboard. It is known as the command-line interface (CLI).
+
+3: To find all of the available shells in your system.
+cat /etc/shells
+
+4: To find out your current shell-type.
+echo $SHELL 
+
+5: Directory Structure and File Hierarchy.
+/ – The Root Directory
+/bin – Essential User Binaries
+/etc – Configuration Files
+/home – Home Folders
+/opt – Optional Packages
+/root – Root Home Directory
+/sbin – System Administration Binaries
+/tmp – Temporary Files
+/usr – User Binaries & Read-Only Data
+/var – Variable Data Files
+
+6: CLI Commands.
+* man -> Manual pages for commands. Use it to find information about other commands and their options.
+* cd -> Change directory.
+* mkdir -> Make directory. Creates a new directory.
+* mv -> Move or rename files/directories.
+* cp -> Copy files or directories.
+* ls -> List directory contents.
+* pwd -> Print working directory. Displays the full path of the current directory.
+* rm -> Remove files or directories.
+* chmod -> Change file mode (permissions).
+* chown -> Change file owner and group.
+* sudo -> Superuser do. Execute commands with root (administrator) privileges.
+* apt -> Advanced Package Tool. Used in Debian-based distributions to manage packages.
+* touch -> Create an empty file or update the timestamp of an existing file.
+* cat -> Concatenate and display file content.
+* less -> View file content page by page.
+* more -> View file content page by page (older version of less).
+* head -> The head command in Linux is used to display the first few lines of a file or files to the standard output. By default, it shows the first 10 lines of a file.
+* tail -> View the last few lines of a file.
+* rsync -> Remote synchronization. Copy files and directories efficiently.
+* grep -> Search text using patterns.
+* find -> Search for files and directories.
+* sort -> Sort lines of text files.
+* date -> Display or set the system date and time.
+* tree -> Display directory structure in a tree format.
+* wc -> Word count. Count lines, words, and characters in a file.
+* ps -> Report a snapshot of current processes.
+* top -> Display real-time system process activity.
+* df -> Disk space usage.
+* uname -> Display system information.
+* free -> Memory usage.
+* lspci -> List all PCI devices.
+* kill -> Terminate processes.
+* ping -> Check connectivity to a host.
+* ifconfig -> Network interface configuration (deprecated, use 'ip' instead).
+* ssh -> Secure Shell. Connect to remote servers securely.
+* xargs -> Build and execute command lines from input.
+* printenv -> Print environment variables.
+* nano -> Simple text editor in the terminal.
+* awk -> Pattern scanning and processing language.
+* sed -> Stream editor for filtering and transforming text.
+* '|' -> Pipe operator, Send the output of one command to another command.
+
