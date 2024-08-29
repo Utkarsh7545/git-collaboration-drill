@@ -1,0 +1,87 @@
+* Markdown is a lightweight markup language used to format plain text. It's commonly used for writing documentation, notes, or even web content.
+
+* Basic writing and formatting syntax, Detailed overview of Markdown syntax:
+
+1: Headings -> Headings are created by placing one or more '#' symbols at the beginning of a line.
+               # H1 - Heading 1
+               ## H2 - Heading 2
+               ### H3 - Heading 3
+
+2: Paragraphs -> Paragraphs are simply lines of text separated by one or more blank lines.
+                 This is a paragraph.
+                 This is another paragraph.
+
+3: Line Breaks -> To create a line break, end a line with two spaces or use a '<br>' tag.
+
+4: Emphasis -> You can emphasize text using asterisks or underscores.
+               Italic: Wrap text in single '*' or '_' -> *italic* or _italic_
+               Bold: Wrap text in double '**' or '__' -> **bold** or __bold__
+               Bold and Italic: Wrap text in triple '***' or '___' -> ***bold and italic*** or ___bold and italic___
+
+5: Blockquotes -> Blockquotes are used to quote text. Start the line with a '>' symbol.
+                  > This is a blockquote.
+
+6: Lists -> Unordered Lists: Use '-', '*', or '+' followed by a space.
+            - Item 1
+            - Item 2
+               - Nested Item 2a
+               - Nested Item 2b
+
+            Ordered Lists: Use numbers followed by a period.
+            1. First item
+            2. Second item
+               1. Nested item a
+               2. Nested item b
+
+7: Code -> Inline Code: Wrap text with backticks '`'.
+           Here is some `inline code`.
+
+           Code Blocks: Use triple backticks or indent lines with four spaces.
+
+8: Horizontal Rules -> To create a horizontal rule, use three or more dashes '---', asterisks '***', or underscores '___'.
+                       ---
+                       ***
+                       ___
+
+9: Links -> Create links using the following syntax: [link text](URL)
+            Example: [OpenAI](https://www.openai.com)
+
+10: Images -> To insert an image, use the syntax similar to links but prefixed with an exclamation mark '!'.
+              ![alt text](URL)
+              Example: ![OpenAI Logo](https://example.com/logo.png)
+
+11: Tables -> Tables are created using pipes '|' and hyphens '-'.
+              | Header 1 | Header 2 |
+              |----------|----------|
+              | Row 1    | Data 1   |
+              | Row 2    | Data 2   |
+
+12: Escaping Characters -> If you need to include Markdown syntax characters as regular text, escape them with a backslash '\'.
+                           \*This text is not italicized\*
+
+13: Footnotes -> Footnotes are added using square brackets with a caret '[^1]' and defined anywhere in the document.
+                 Here is a footnote reference[^1].
+                 [^1]: This is the footnote.
+
+14: Task Lists -> Task lists are created using '- [ ]' for incomplete tasks and '- [x]' for completed tasks.
+                  - [ ] Task 1
+                  - [x] Task 2
+
+15: HTML in Markdown -> You can use raw HTML for elements not supported by Markdown, such as complex tables or forms.
+                        <table>
+                          <tr>
+                            <th>Header 1</th>
+                            <th>Header 2</th>
+                          </tr>
+                          <tr>
+                            <td>Row 1</td>
+                            <td>Data 1</td>
+                          </tr>
+                        </table>
+
+16: Using Emojis -> You can add emoji to your writing by typing ':EMOJICODE:'.
+                    A colon followed by the name of the emoji:
+                    @octocat :+1: This PR looks great - it's ready to merge! :shipit:
+
+17: Hiding content with comments -> You can tell GitHub to hide content from the rendered Markdown by placing the content in an HTML comment.
+                                    <!-- This content will not appear in the rendered Markdown -->
