@@ -1,0 +1,34 @@
+* Computer Networks -> Computer networks refer to a set of interconnected devices that communicate and share resources with each other.
+
+* Overview of key concepts in computer networks:
+
+1: Network Types -> LAN (Local Area Network), WAN (Wide Area Network), MAN (Metropolitan Area Network), PAN (Personal Area Network).
+
+2: Network Topologies -> Bus Topology, Star Topology, Ring Topology, Mesh Topology.
+
+3: OSI Model -> The OSI (Open Systems Interconnection) model is a conceptual framework used to understand network interactions in seven layers:
+                Layer 1: Physical (e.g., cables, switches)
+                Layer 2: Data Link (e.g., MAC addresses, switches)
+                Layer 3: Network (e.g., IP addresses, routers)
+                Layer 4: Transport (e.g., TCP/UDP protocols)
+                Layer 5: Session (e.g., managing sessions)
+                Layer 6: Presentation (e.g., data translation, encryption)
+                Layer 7: Application (e.g., HTTP, FTP)
+
+4: Network Protocols -> TCP/IP, HTTP/HTTPS, FTP/SFTP, SMTP/IMAP/POP3, DNS, DHCP.
+
+5: Network Devices -> Router, Switch, Hub, Modem.
+
+6: IP Addressing -> IPv4: Uses 32-bit addresses, usually in dotted-decimal format (e.g., 192.168.0.1).
+                    IPv6: Uses 128-bit addresses to allow for more devices to be connected (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
+
+7: Subnetting -> Subnetting is the practice of dividing a network into smaller, more manageable pieces. This helps in efficient IP address allocation and enhances network security and performance.
+
+8: Network Security -> Firewalls, VPNs(Virtual Private Networks), Encryption, Authentication Protocols.
+
+9: Wireless Networking -> Wi-Fi, Bluetooth, Zigbee.
+
+10: Cloud Networking -> Public Cloud: Services offered over the public Internet, available to anyone who wants to purchase them.
+                        Private Cloud: A cloud environment dedicated to a single organization.
+                        Hybrid Cloud: Combines public and private clouds, allowing data and applications to be shared between them.
+
