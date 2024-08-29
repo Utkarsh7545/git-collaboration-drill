@@ -1,0 +1,42 @@
+1: What is git?
+Git is a free, open-source distributed version control system. Git helps keep track of changes made to a code.
+
+2: What is github?
+Github is a website or a platform for software developers, and it’s built around Git.
+
+3: Git Commands.
+* git init -> Initialize a new Git repository in a directory.
+* git clone -> Clone an existing repository from a remote server to your local machine.
+* git add -> Stage changes for the next commit.
+* git commit -> Record changes to the repository with a message describing the change.
+* git status -> Show the current status of the working directory and staging area.
+* git log -> Show commit history for the current branch.
+* git diff -> Show changes between commits, working directory, etc.
+* git checkout -> Switch branches or restore working tree files.
+* git branch -> List, create, or delete branches.
+* git merge -> Merge changes from one branch into another.
+* git pull -> Fetch and integrate changes from a remote repository into your current branch.
+* git push -> Upload your local commits to a remote repository.
+* git help -> Show help for a command.
+* git reflog -> Show the history of reference changes.
+* git gc -> Cleanup unnecessary files and optimize the local repository.
+* git fsck -> Verify the connectivity and validity of objects in the database.
+* git describe -> Show the most recent tag that is reachable from a commit.
+* git rm -> Remove files from the working directory and the index.
+* git mv -> Move or rename a file, directory, or symlink.
+* git config -> Get and set repository or global options.
+                Set your username: 'git config --global user.name "Your Name"'
+                Set your email: 'git config --global user.email "your.email@example.com"'
+                View config settings: 'git config --list'
+* git revert -> Revert some existing commits by making new commits.
+* git clean -> Remove untracked files from the working directory.
+* git archive -> Create an archive of files from a named tree.
+* git blame -> Show what revision and author last modified each line of a file.
+* git bisect -> Use binary search to find the commit that introduced a bug.
+* git show -> Show various types of objects (like commits, tags, etc.).
+* git tag -> Create, list, delete, or verify a tag object.
+* git reset -> Reset current HEAD to a specified state.
+* git fetch -> Download objects and refs from another repository.
+* git remote -> Manage set of tracked repositories.
+* 'git --version' or 'git -v' -> Used for version check.
+
