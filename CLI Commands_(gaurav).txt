@@ -1,0 +1,157 @@
+CLI Commands: 
+
+Common Linux Commands:
+
+1. man (Super Important):
+Opens the manual page for a command, providing detailed information on its usage, options, and examples.
+
+2. cd (Change Directory):
+Navigates between directories.
+
+.: Refers to the current directory.
+..: Moves up one level to the parent directory.
+~: Navigates to the home directory.
+-: Switches to the previous directory.
+
+3. mkdir (Make Directory):
+Creates a new directory.
+
+4. mv (Move/Rename):
+Moves or renames files and directories.
+
+5. cp with Recursive Flag (-r):
+Copies files and directories, including all contents within directories.
+
+6. ls (List Directory Contents):
+Lists files and directories.
+
+-l: Detailed list with permissions, sizes, etc.
+-a: Shows hidden files.
+-h: Human-readable sizes.
+
+7. pwd (Print Working Directory):
+Displays the current directory path.
+
+8. rm (Remove):
+Deletes files or directories.
+
+-r: Removes directories and their contents recursively.
+-f: Forces deletion without prompts.
+
+9. chmod (Super Important):
+Changes file or directory permissions using symbolic or numeric modes.
+
+10. chown (Super Important):
+Changes the ownership of a file or directory, specifying user and group.
+
+11. sudo (Superuser Do):
+Executes commands with superuser (root) privileges.
+
+12. apt (Advanced Package Tool):
+Manages packages on Debian-based systems.
+
+update: Updates package lists.
+upgrade: Installs updates.
+
+13. touch:
+Creates an empty file or updates the timestamp of an existing file.
+
+14. cat (Concatenate):
+Displays the contents of a file, or concatenates multiple files.
+
+15. less:
+Views file contents page by page, allowing scrolling.
+
+16. more:
+Similar to less, but with limited backward navigation.
+
+17. tail:
+Displays the last few lines of a file.
+-f: Follows the file as it grows (useful for log files).
+
+18. rsync:
+Synchronizes files and directories between two locations efficiently.
+
+19. grep:
+Searches for patterns in files, displaying matching lines.
+
+20. find (Super Important):
+Searches for files and directories based on various criteria like name, size, and permissions.
+
+21. sort:
+Sorts lines of text files alphabetically or numerically.
+
+22. date:
+Displays or sets the system date and time.
+
+23. tree:
+Displays directories and files in a tree-like structure.
+
+24. wc (Word Count):
+Counts lines, words, and characters in a file.
+
+
+
+25. OS/Process Related Commands:
+- ps:
+Displays currently running processes and their statuses.
+
+- top:
+Shows real-time system resource usage and active processes.
+
+- df:
+Displays disk space usage of file systems.
+
+- uname:
+Prints system information, such as kernel name and version.
+
+- free:
+Shows memory and swap usage.
+
+- lspci:
+Lists all PCI devices on the system.
+
+- kill:
+Terminates processes by PID.
+-9: Forcefully kills the process.
+
+
+
+26. Network Related Commands:
+- ping:
+Sends ICMP echo requests to test network connectivity to a host.
+
+- ifconfig:
+Displays and configures network interfaces (deprecated, use ip).
+
+- ssh:
+Securely connects to remote machines via the SSH protocol.
+
+
+
+27. Bash Related Commands:
+
+- xargs:
+Builds and executes command lines from standard input, useful with find.
+
+- printenv:
+Displays environment variables.
+
+- nano:
+A simple text editor for editing files in the terminal.
+
+- awk:
+A powerful text processing language, often used for pattern scanning and reporting.
+
+- sed:
+A stream editor for performing basic text transformations on input streams.
+
+- Pipe Operator |:
+Redirects the output of one command as input to another, enabling command chaining.
+
+
+
+
+
+
+
