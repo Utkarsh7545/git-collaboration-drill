@@ -56,6 +56,71 @@
 
     Commit area: Once the changes are complete​, the staging area will contain one or more files that need to be committed. Creating a commit will cause Git to take the new code from the staging area and make the commit to the main repository​. This commit is then moved to the commit area.
 
+4. Basic Git Commands
+
+    Initialize a Repository:
+
+        To start tracking a project with Git, navigate to the project directory and initialize a Git repository:
+
+        $ git init
+
+    Clone a Repository:
+
+        To clone an existing repository from GitHub to our local machine:
+
+        $ git clone https://github.com/shubhamCda/repository.git
+
+
+    Check Status:
+
+        To see the status of your files (untracked, modified, or staged):
+
+        $ git status
+
+    Add Changes:
+        To stage changes for the next commit:
+
+        $ git add file.txt  # Add a specific file
+        $ git add .         # Add all changes
+
+    Commit Changes:
+
+        To commit staged changes with a descriptive message:
+
+        $ git commit -m "Your commit message"
+
+    Push Changes:
+
+        To push your commits to a remote repository (e.g., GitHub):
+
+        $ git push origin main
+        --> Replace main with the branch name if working on a different branch.
+
+    Pull Changes:
+
+        To fetch and merge changes from the remote repository to your local machine:
+
+        $ git pull origin main
+
+    Create a Branch:
+        To create a new branch for working on a feature:
+
+        $ git branch feature-branch
+
+    Switch Branches:
+        To switch to another branch:
+
+        $ git checkout feature-branch
+
+    Merge Branches:
+
+        To merge changes from one branch into the current branch:
+
+        $ git merge feature-branch
+
+
+
+
 
 
 
