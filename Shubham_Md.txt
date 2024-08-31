@@ -1,0 +1,154 @@
+Markdown
+    Markdown is an easy-to-read, easy-to-write language for formatting plain text. You can use Markdown syntax, along with some additional HTML tags, to format your writing on GitHub, in places like repository READMEs and comments on pull requests and issues. In this guide, you'll learn some advanced formatting features by creating or editing a README for your GitHub profile.
+
+1. Headings
+    Markdown allows me to create headings with # symbols. You can create up to six levels of headings:
+
+        # Heading 1
+        ## Heading 2
+        ### Heading 3
+
+2. Styling Text
+    Styling text in Markdown is simple. You can make text bold using ** or __, italic using * or _, and strikethrough using ~~:
+
+        **bold**
+        *italic*
+        ~~strikethrough~~
+
+
+3. Quoting Text
+    Quoting text can be done using the > symbol. It's useful for highlighting important notes:
+
+        > This is a quote.
+
+4. Quoting Code
+
+    For inline code, use backticks:
+
+        `code`
+
+    For blocks of code, use triple backticks:
+        ```
+        markdown
+        Copy code
+        code block
+
+        ```
+
+5. Supported Color Models:
+    GitHub supports color models in HTML-like style tags. For example, to use a hex color:
+
+        <span style="color:#3498db;">Colored text</span>
+
+6. Links:
+    Creating links is simple. Use [text](URL) for normal links:
+
+        [GitHub](https://github.com)
+
+
+7. Section Links
+    You can create links to specific sections within a document:
+
+        [Go to Headings](#headings)
+
+
+8. Relative Links
+    Relative links point to files or directories within your repository:
+
+        [README](./README.md)
+
+
+9. Images
+    To add images, use ![alt text](URL):
+
+        ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+
+
+10. Lists
+    Lists in Markdown are either ordered or unordered:
+
+        Unordered List:
+        - Item 1
+        - Item 2
+
+        Ordered List:
+
+        1. First item
+        2. Second item
+
+11. Task Lists
+
+    You can create task lists with checkboxes:
+
+        - [x] Task 1
+        - [ ] Task 2
+
+
+12. Mentioning People and Teams:
+
+    Mention people or teams using @username:
+
+        @people/teams
+
+
+13. Referencing Issues and Pull Requests:
+    Reference issues and pull requests by their number:
+
+        Fixes #123
+
+
+14. Referencing External Resources:
+    Link to external resources using a standard hyperlink format:
+
+        [Google](https://www.google.com)
+
+
+15. Uploading Assets:
+    To upload assets, simply drag and drop the file into the Markdown editor on GitHub.
+
+16. Using Emojis:
+    Emojis can be added using :emoji_name: syntax:
+
+    :)
+
+17. Paragraphs:
+
+    Paragraphs are created by separating blocks of text with a blank line.
+
+18. Footnotes:
+
+    Footnotes can be created using the following syntax:
+
+        Here is a footnote reference[^1].
+
+        [^1]: Footnote explanation.
+
+
+19. Alerts
+
+    You can use blockquotes for alerts:
+
+        > [!NOTE] This is an alert.
+        [!IMPORTANT]: For important.
+        [!WARNING]: For warning.
+
+20. Hiding Content with Comments
+
+    You can hide content in Markdown using HTML comments:
+
+        <!-- This content will not appear in the rendered Markdown. -->
+
+
+21. Ignoring Markdown Formatting
+
+    Use backslashes \ to escape Markdown characters:
+
+        \*This text is not italic\*
+
+
+22. Disabling Markdown Rendering
+
+    To disable Markdown rendering in a block of text, use triple backticks with text as the language:
+
+        ```text
+        This is a block of plain text with no Markdown formatting.
