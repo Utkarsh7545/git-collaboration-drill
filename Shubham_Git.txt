@@ -1,0 +1,64 @@
+1. Git
+
+    * Git is a version control system.
+
+    * Git helps you keep track of code changes.
+
+    * Git is used to collaborate on code.
+
+    
+
+2. Setup
+
+    It is easiest to install Git on Linux using the preferred package manager of your Linux distribution. If you prefer to build from source, you can find tarballs on kernel.org. The latest version is 2.46.0.
+
+    * Debian/Ubuntu
+
+        For the latest stable version for your release of Debian/Ubuntu
+
+        # apt-get install git
+
+        For Ubuntu, this PPA provides the latest stable upstream Git version
+
+        # add-apt-repository ppa:git-core/ppa 
+        # apt update; apt install git
+
+        Example:
+
+        shubham@shubham-Lenovo-ideapad-320-15ISK:~$ git -v
+        git version 2.43.0
+
+2. Getting started
+
+    It is a good idea to introduce yourself to Git with your name and public email address before doing any operation. The easiest way to do so is:
+
+        $ git config --global user.name "Your Name Comes Here"
+        $ git config --global user.email you@yourdomain.example.com
+
+    Repository:
+
+        A repository (commonly referred to as repo) is a collection of source code. A repository has commits to the project or a set of references to the commits (i.e., heads).
+
+    Commits:
+
+        A commit logs a change or series of changes that you have made to a file in the repository. A commit has a unique SHA1 hash which is used to keep track of files changed in the past. A series of commits comprises the Git history.
+
+    Branches:
+
+        A branch is essentially a unique set of code changes with a unique name. Each repository can have one or more branches. The main branch — the branch where all the changes eventually get merged into - is called the master. This is the official working version of your project and the one that you will see when you visit the project repository at github.com/yourname/projectname.
+        Working directory, staging area, and local repo
+
+3. Every local repository has three different virtual zones. These are:
+
+    Working directory: The working directory is where new files are created, old files are deleted, or where changes are made to already existing files.
+
+    Staging area: Once changes are made, they are added to the staging area. The staging area is also sometimes called the index.
+
+    Commit area: Once the changes are complete​, the staging area will contain one or more files that need to be committed. Creating a commit will cause Git to take the new code from the staging area and make the commit to the main repository​. This commit is then moved to the commit area.
+
+
+
+
+
+
+
