@@ -1,6 +1,65 @@
 1. What Is a Shell?
-    The shell is a user program or it is an environment provided for user interaction.
-    It is a command language interpreter that executes commands read from the standard input device such as a keyboard or from a file.
-    The shell gets started when you log in or open a console (terminal).
-    Quick and dirty way to execute utilities.
-    The shell is not part of the system kernel but uses the system kernel to execute programs, create files, etc.
+    * The shell is a user program or it is an environment provided for user interaction.
+    * It is a command language interpreter that executes commands read from the standard input device such as a keyboard or from a file.
+    * The shell gets started when you log in or open a console (terminal).
+    * Quick and dirty way to execute utilities.
+    * The shell is not part of the system kernel but uses the system kernel to execute programs, create files, etc.
+
+    Example: $ cat /etc/shells
+                # /etc/shells: valid login shells
+                /bin/sh
+                /usr/bin/sh
+                /bin/bash
+                /usr/bin/bash
+                /bin/rbash
+                /usr/bin/rbash
+                /usr/bin/dash
+2. Command Line Input
+
+    * CLI is a command line program that accepts text input to execute operating system functions.
+
+    * Today, with graphical user interfaces (GUI), most users never use command-line interfaces (CLI).
+
+    * CLI is still used by software developers and system administrators to configure computers, install software, and access features that are not available in the graphical interface.
+
+    Example: shubham@shubham-Lenovo-ideapad-320-15ISK:~$ help
+                GNU bash, version 5.2.21(1)-release (x86_64-pc-linux-gnu)
+                These shell commands are defined internally.  Type `help' to see this list.
+                Type `help name' to find out more about the function `name'.
+                Use `info bash' to find out more about the shell in general.
+                Use `man -k' or `info' to find out more about commands not in this list.
+
+                A star (*) next to a name means that the command is disabled.
+
+                job_spec [&]                            history [-c] [-d offset] [n] or hist>
+                (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
+                . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
+
+3. Basic Linux CLI Commands
+
+    Command	        Description
+
+    ls	            List the directory (folder) system.
+    cd pathname	    Change directory (folder) in the file system.
+    cd ..	        Move one level up (one folder) in the file system.
+    cp	            Copy a file to another folder.
+    mv	            Move a file to another folder.
+    mkdir	        Creates a new directory (folder).
+    rmdir	        Remove a directory (folder).
+    clear	        Clears the CLI window.
+    exit	        Closes the CLI window.
+    man command	    Shows the manual for a given command.
+
+4. Directory Structure and File Hierarchy.
+    / – The Root Directory
+    /bin – Essential User Binaries
+    /etc – Configuration Files
+    /home – Home Folders
+    /opt – Optional Packages
+    /root – Root Home Directory
+    /sbin – System Administration Binaries
+    /tmp – Temporary Files
+    /usr – User Binaries & Read-Only Data
+    /var – Variable Data Files
+
+
