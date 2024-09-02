@@ -1,0 +1,38 @@
+1: What is a Shell? 
+
+A shell is a special user program that provides an interface for the user to use operating system services. 
+Shell accepts human-readable commands from users and converts them into something which the kernel can understand. 
+It is a command language interpreter that executes commands read from input devices such as keyboards or from files. 
+The shell gets started when the user logs in or starts the terminal.
+
+Shell is broadly classified into two categories –
+
+Command Line Shell
+Graphical shell
+
+2: Command Line Interface (CLI).
+
+CLI is a command line program that accepts text input to execute operating system functions.
+
+In the 1960s, using only computer terminals, this was the only way to interact with computers.
+
+In the 1970s an 1980s, command line input was commonly used by Unix systems and PC systems like MS-DOS and Apple DOS.
+
+2.1 : Command Line Interface (CLI).
+
+// command
+
+ls	 // List the directory (folder) system.
+cd   //pathname	Change directory (folder) in the file system.
+cd ..   //	Move one level up (one folder) in the file system.
+cp	  // Copy a file to another folder.
+mv	// Move a file to another folder.
+mkdir	 //Creates a new directory (folder).
+rmdir	 // Remove a directory (folder).
+clear	 // Clears the CLI window.
+exit	// Closes the CLI window.
+touch  // create file
+DATE	// Displays or sets the date.
+DEL    //	Deletes one or more files.
+DIR	    // Displays a list of files and subdirectories in a directory
+
