@@ -1,0 +1,29 @@
+1. What is a Computer Network?
+
+A computer network is a system that connects two or more computing devices for transmitting and sharing information. 
+Computing devices include everything from a mobile phone to a server. 
+These devices are connected using physical wires such as fiber optics, but they can also be wireless.
+
+2. What is a Computer Network?
+A computer network is a collection of interconnected devices that share resources and information.
+These devices can include computers, servers, printers, and other hardware. Networks allow for the efficient exchange of data, enabling various applications such as email, file sharing, and internet browsing.
+
+3. How Does a Computer Network Work?
+Basics building blocks of a Computer network are Nodes and Links. A Network Node can be illustrated as Equipment for Data Communication like a Modem, Router, etc., or Equipment of a Data Terminal like connecting two computers or more.
+Link in Computer Networks can be defined as wires or cables or free space of wireless networks.
+The working of Computer Networks can be simply defined as rules or protocols which help in sending and receiving data via the links which allow Computer networks to communicate.
+Each device has an IP Address, that helps in identifying a device.
+
+4. Basic Terminologies of Computer Networks
+Network: A network is a collection of computers and devices that are connected together to enable communication and data exchange.
+Nodes: Nodes are devices that are connected to a network. These can include computers, Servers, Printers, Routers, Switches, and other devices.
+Protocol: A protocol is a set of rules and standards that govern how data is transmitted over a network. Examples of protocols include TCP/IP, HTTP, and FTP.
+
+5. Types of Enterprise Computer Networks
+LAN: A Local Area Network (LAN) is a network that covers a small area, such as an office or a home. LANs are typically used to connect computers and other devices within a building or a campus.
+WAN: A Wide Area Network (WAN) is a network that covers a large geographic area, such as a city, country, or even the entire world. WANs are used to connect LANs together and are typically used for long-distance communication.
+Cloud Networks: Cloud Networks can be visualized with a Wide Area Network (WAN) as they can be hosted on public or private cloud service providers and cloud networks are available if there is a demand. Cloud Networks consist of Virtual Routers, Firewalls, etc.
+
+6 . Cloud Networking -> Public Cloud: Services offered over the public Internet, available to anyone who wants to purchase them.
+                        Private Cloud: A cloud environment dedicated to a single organization.
+                        Hybrid Cloud: Combines public and private clouds, allowing data and applications to be shared between them.
