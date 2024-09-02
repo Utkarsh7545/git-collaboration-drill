@@ -1,0 +1,28 @@
+Markdown Guide
+Markdown is an easy-to-read, easy-to-write language for formatting plain text. You can use Markdown syntax, along with some additional HTML tags, to format your writing on GitHub, in places like repository READMEs and comments on pull requests and issues. In this guide, you'll learn some advanced formatting features by creating or editing a README for your GitHub profile.
+
+1. Headings
+Markdown allows you to create headings with # symbols. You can create up to six levels of headings:
+
+markdown
+
+# Heading 1
+## Heading 2
+### Heading 3
+
+2. Styling Text
+Styling text in Markdown is simple. You can make text bold using ** or __, italic using * or _, and strikethrough using ~~:
+
+markdown
+
+**bold**
+*italic*
+~~strikethrough~~
+
+3. Quoting Text
+
+Quoting text can be done using the > symbol. It's useful for highlighting important notes:
+
+markdown
+
+> This is a quote.
