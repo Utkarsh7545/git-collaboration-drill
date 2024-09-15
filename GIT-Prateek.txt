@@ -1,0 +1,87 @@
+Git is a distributed version control system used for tracking changes in source code during software development. It allows multiple developers to work on a project simultaneously, keeping track of all modifications and facilitating collaboration.
+
+Here are some essential Git commands with brief descriptions:
+
+    git init: Initializes a new Git repository in the current directory.
+
+    git clone: Creates a copy of an existing repository by downloading it to your local machine.
+
+    git status: Displays the state of the working directory and staging area, showing changes and files to be committed.
+
+    git add: Stages changes (new, modified, or deleted files) for the next commit.
+
+    git commit: Records staged changes to the repository with a descriptive message.
+
+    git commit --amend: Modifies the most recent commit by adding changes or editing the commit message.
+
+    git log: Displays a history of commits in the current branch.
+
+    git log --oneline: Shows a concise commit history with one line per commit.
+
+    git diff: Shows the differences between files in the working directory, staging area, or commits.
+
+    git branch: Lists all branches in the repository; with a name, it creates a new branch.
+
+    git checkout: Switches to another branch or restores files from a specific commit.
+
+    git switch: Switches branches or restores files without ambiguity, avoiding some pitfalls of git checkout.
+
+    git merge: Combines changes from one branch into another.
+
+    git rebase: Applies changes from one branch onto another, often used to keep a clean project history.
+
+    git pull: Fetches changes from a remote repository and merges them into the current branch.
+
+    git push: Uploads local branch commits to a remote repository.
+
+    git fetch: Downloads objects and references from another repository without merging them.
+
+    git remote: Manages connections to remote repositories.
+
+    git remote -v: Displays the URLs of remote repositories.
+
+    git stash: Temporarily saves changes that are not ready to be committed, allowing you to work on something else.
+
+    git stash pop: Restores stashed changes and removes them from the stash list.
+
+    git stash list: Lists all stashed changes.
+
+    git reset: Resets the current branch to a specific commit, with options to keep or remove changes.
+
+    git reset --soft: Resets the commit history while keeping changes in the staging area.
+
+    git reset --hard: Resets the commit history and discards all changes in the working directory.
+
+    git rm: Removes files from the working directory and staging area.
+
+    git mv: Moves or renames a file, and stages the change for the next commit.
+
+    git tag: Creates a tag to mark a specific commit, often used for releases.
+
+    git cherry-pick: Applies a specific commit from one branch to another.
+
+    git revert: Reverts a commit by creating a new commit that undoes the changes.
+
+    git bisect: Uses binary search to find the commit that introduced a bug.
+
+    git show: Displays detailed information about a specific commit or object.
+
+    git blame: Shows who made changes to each line of a file, useful for tracking the history of changes.
+
+    git clean: Removes untracked files and directories from the working directory.
+
+    git config: Configures Git settings, such as user name, email, and aliases.
+
+    git config --global: Sets configuration options globally for all repositories on the system.
+
+    git archive: Creates an archive (e.g., zip or tar) of files from a particular commit or branch.
+
+    git submodule: Manages nested Git repositories inside a parent repository.
+
+    git ls-files: Lists all files in the index (staging area).
+
+    git grep: Searches for a text pattern in tracked files within the repository.
+
+    git reflog: Shows a log of all references, including branches and commits that have been moved or deleted.
+
+    git help: Provides help for any Git command.
